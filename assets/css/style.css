@@ -1,0 +1,246 @@
+@import url('./fonts.css');
+body{
+    font-family: 'Montserrat';
+    font-weight: 500;    
+}
+.wrapper{
+    background: url(../img/header.jpg),center,no-repeat;
+    height: 970px;
+    background-size: cover;
+    color: white;
+}
+header{
+    padding: 22px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+h2{
+    font-weight: 700;
+    font-size: 42px;
+    color: black;
+}
+h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+h4{
+    font-weight: 700;
+    font-size: 23px;
+}
+a{
+    color: white;
+}
+.btn{
+    border-radius: 38px;
+    padding: 25px 80px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    font-weight: 500;
+    font-size: 15px;
+}
+.burger-menu .line{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.title{
+    margin-left: 120px;
+    margin-top: 150px;
+}
+.title h1{
+    width: 50%;
+}
+.title h3{
+    width: 25%;
+    margin-top: 50px;
+}
+.title .btn, .contacts .btn{
+    background-color: #DD9428;
+    color: black;
+    
+}
+.main .container{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.container .btn{
+    margin-right: 60px;
+}
+.container svg{
+    margin-right: 21px;
+}
+.container p{
+    width: 15%;
+}
+.cover{
+    height: 55px;
+    width: 209px;
+    margin-top: 121px;
+}
+.cover p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.logoicons{
+    width: 78%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-tour{
+    max-width: 1378px;
+    height: 475px;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-between;  
+    
+}
+.tour .container{
+    background:url(../img/Hawaii.jpg) center no-repeat;
+    background-size: cover;
+    width: 60%;
+    border-radius: 16px;
+    color: white;
+    padding: 40px 0 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tourlocation{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tourlocation p{
+    width: 22%;
+}
+.tourtitle{
+    width: 35%;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}  
+.tourtitle p{
+    margin:30px 0 50px;
+    width: 60%;    
+} 
+.tourtitle h2{
+    width: 100%;
+}
+.tourtitle .btn{
+    background-color: transparent;
+    border: 1px solid #DD9428;
+    color: #DD9428;
+    font-weight: 600;
+}  
+.news {
+    background: url(../img/section.png),center,no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 133px 0 52px 895px;
+}
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info h2{
+    width: 100%;
+}
+.info p{
+    margin-top: 30px;
+    width: 40%;
+}
+.contacts{
+    width: 27%;
+    margin-left: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts .btn{
+    padding: 25px 45px;
+}
+.contacts p{
+    font-size: 11px;
+    font-weight: 400;
+    width: 70%;
+    text-align:start;
+    margin-top: 10px;
+}
+.form .btn{
+    padding: 25px 0 25px 15px;
+    text-align: start;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 2px solid #CED8DF;
+}
+.rewiew .container{
+    background:url(../img/rewiew.jpg) center no-repeat;
+    background-size: cover;
+    width: 60%;
+    border-radius: 16px;
+    color: white;
+    padding: 40px 0 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rewiew .tourtitle{
+    margin-left: 0;
+    margin-right: 100px;
+}
+.rewiew .tourtitle p{
+    width: 65%;
+}
+.rewiew .tourlocation p{
+    width: 32%;
+}
+footer{
+    background-color: #F5F5F5;
+    margin: 0 auto;
+   
+}
+.wrapper-footer {
+    max-width: 1676px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px 50px 120px;
+}
+.logo-footer{
+    width: 48%;
+    display: flex;
+}
+.logoicons-footer {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.wrapper-footer p{
+    width: 26%;
+    margin-left: 123px;   
+}
